@@ -8,4 +8,8 @@ class MainController extends Controller {
 	public function index(): View {
 		return view('hi', ['title' => 'Main page']);
 	}
+
+	public function test() {
+		return 'test page';
+	}
 }
