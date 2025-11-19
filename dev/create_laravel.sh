@@ -1,5 +1,5 @@
 #!/bin/bash
-funcArtisan {
+function funcArtisan {
     echo ">>> Running database migrations..."
     docker-compose exec php php artisan migrate
 
