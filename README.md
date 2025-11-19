@@ -11,3 +11,8 @@ laravel:
 
 phpMyAdmin:
 [localhost:8001](http://localhost:8001/)
+
+**Notes**
+```bash
+docker-compose exec php php artisan
+```
